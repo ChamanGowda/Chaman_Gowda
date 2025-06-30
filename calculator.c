@@ -27,5 +27,19 @@ int main(){
 		case'*':
                         result=num1*num2;
                         printf("result: %.2lf\n",result);
-                        break;
+                        break
+		case'/':
+                        if(num2!=0){
+			result=num1/num2;
+                        printf("result: %.2lf\n",result);
+                        
+			}else{
+				printf("Erroe: Division by zero is not allowed.\n);
+			}
+			break;
+		default:
+			printf("Invalid operator!.\n");
+	}
+	return 0:
+}
 	
